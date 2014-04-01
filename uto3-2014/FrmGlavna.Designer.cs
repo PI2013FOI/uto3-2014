@@ -103,6 +103,7 @@
             this.lstRezultati.Name = "lstRezultati";
             this.lstRezultati.Size = new System.Drawing.Size(120, 160);
             this.lstRezultati.TabIndex = 6;
+            this.lstRezultati.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstRezultati_MouseDoubleClick);
             // 
             // btnIzracunaj
             // 
@@ -112,6 +113,7 @@
             this.btnIzracunaj.TabIndex = 7;
             this.btnIzracunaj.Text = "Izračunaj";
             this.btnIzracunaj.UseVisualStyleBackColor = true;
+            this.btnIzracunaj.Click += new System.EventHandler(this.btnIzracunaj_Click);
             // 
             // btnObrisi
             // 
@@ -121,6 +123,7 @@
             this.btnObrisi.TabIndex = 8;
             this.btnObrisi.Text = "Obriši";
             this.btnObrisi.UseVisualStyleBackColor = true;
+            this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click);
             // 
             // chkSpremi
             // 
